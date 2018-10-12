@@ -3,7 +3,6 @@ import * as Keyboard from "./engine/keyboard.js";
 
 import Camera from "./entities/camera.js";
 import Terrain from "./entities/terrain.js";
-import Hero from "./entities/hero.js";
 
 const canvas = document.querySelector('canvas');
 const gl = canvas.getContext('webgl2', { antialias: false });
